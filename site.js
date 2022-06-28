@@ -7,7 +7,7 @@ function tcno_kontrol()
       sonuc = 0,
       tcToplam = 0,
       i = 0;
-    var tcno= $("#tc_no").val();
+    var tcno= document.getElementById("tc_no").value;
 
     if (tcno.substring(0, 1)==='0') 
     {
